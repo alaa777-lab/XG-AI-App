@@ -1,0 +1,17 @@
+[project]
+name = "xg_ai"
+version = "1.0.0"
+description = "XG AI Application"
+
+[tool.flet]
+product = "XG AI"
+org = "com.xg"
+
+[tool.flet.app]
+path = "."
+
+[tool.flet.android]
+package_name = "com.xg.ai"
+
+[tool.flet.icon]
+icon = "icon.png"
